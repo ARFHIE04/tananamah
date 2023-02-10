@@ -1,0 +1,151 @@
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #fff;
+}
+
+.navbar .navbar-logo {
+  width: 5px;
+  height: 2px;
+  color: #000;
+}
+
+.navbar .navbar-nav a {
+  color: #000;
+  display: inline-block;
+  margin: 0 1rem;
+}
+.navbar .navbar-nav a:hover {
+  color: grey;
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../image/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero .content {
+  padding: 1.4rem;
+  max-width: 50rem;
+}
+.hero .content h1 {
+  font-size: 5em;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(1, 1, 1, 0.5);
+}
+
+.hero .content p {
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 200;
+}
+
+.hero .content .cta {
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.about,
+.jenis {
+  padding: 8rem 7% 1.4rem;
+}
+.about h2,
+.jenis h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+.about .row {
+  display: flex;
+}
+.about .row .about-img {
+  flex: 1 1 45rem;
+}
+.about .row .about-img img {
+  width: 100%;
+}
+
+.about .row .conten {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+.about .row .conten h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.about .row .conten p {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+
+.jenis .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.jenis .row .jenis-card {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.jenis .row .jenis-card img {
+  border-radius: 50%;
+  width: 80%;
+}
+.jenis .row .jenis-card .jenis-card-title {
+  margin-top: 1.5rem;
+}
+.jenis .row .jenis-card .cta {
+  display: inline-block;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: auto;
+}
+
+footer .link {
+  padding: 1rem 0;
+}
+
+footer .link a {
+  color: #fff;
+  margin: 1rem;
+}
+
+footer .link a :hover {
+  color: grey;
+}
+footer .credit p {
+  color: #fff;
+}

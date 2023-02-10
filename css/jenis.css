@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #fff;
+}
+
+.navbar .navbar-logo {
+  width: 5px;
+  height: 2px;
+  color: #000;
+}
+
+.navbar .navbar-nav a {
+  color: #000;
+  display: inline-block;
+  margin: 0 1rem;
+}
+.navbar .navbar-nav a:hover {
+  color: grey;
+}
+.jenis {
+  padding: 8rem 7% 1.4rem;
+  min-height: 100vh;
+  display: flex;
+}
+.about h2,
+.jenis h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+.about .row {
+  display: flex;
+}
+.about .row .about-img {
+  flex: 1 1 45rem;
+}
+.about .row .about-img img {
+  width: 100%;
+}
+
+.about .row .conten {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+.about .row .conten h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.about .row .conten p {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 100;
+}
